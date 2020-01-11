@@ -2,7 +2,14 @@
 
 ## Docker Machine
 
-### Install on Linux (centOS)
+Docker Machine will create a virtual machine where docker engine is running and ready to run docker images as required.
+
+Install on Linux (centOS)
+---
+
+Start Docker Service, make sure its running
+    
+`systemctl start docker`
 
 > download docker machine binary and follow instructions as here: https://github.com/docker/machine/releases
 
@@ -17,14 +24,52 @@ chmod +x /tmp/docker-machine
 cp /tmp/docker-machine /usr/local/bin/docker-machine
 ```
 
-#### check docker machine version
+Check docker machine version
     
 `docker-machine -version`
 
-#### list created docker hosts
+List created docker hosts
     
 `docker-machine ls`
 
-#### list docker machine version
+Create New Docker Host
     
-`docker-machine -version`
+`docker-machine create --driver google --google-project project-name-id hostname1`
+
+> More details on docker machine driver (cloud provider specific) are available here:
+https://docs.docker.com/v17.12/machine/drivers/
+
+Check environment variables of created docker host machines
+
+`docker-machine env hostname1`
+
+Point current shell to the docker daemon of the host
+
+`eval $(docker-machine env hostname1)`
+
+Confirm which host is currently active
+
+`docker-machine active`
+
+Unset pointed docker host
+
+`eval $(docker-machine env -u)`
+
+Running docker image as container
+List Docker Machine, set it active using eval command.
+
+`docker images`
+
+`docker run -itd -P nginx`
+
+Get the IP addres of the docker machine host
+
+`docker-machine ip hostname1`
+
+See if nginx is runnig
+
+`curl <ip-addr:port>`
+
+
+
+
