@@ -46,7 +46,7 @@
 
     whoami
 
->## Hardware Information
+## Hardware Information
 
 >### Display messages in kernel ring buffer
 
@@ -88,7 +88,7 @@
 
     badblocks -s /dev/sda
 
->## Performance Monitoring & Statistics
+## Performance Monitoring & Statistics
 
 >### Display and manage the top processes
 
@@ -138,7 +138,7 @@
 
     watch df -h
 
->## User Information & Management
+## User Information & Management
 
 >### Display the user and group ids of your current user.
 
@@ -172,7 +172,7 @@
 
     usermod -aG sales john
 
->## File & Directory Commands
+## File & Directory Commands
 
 >### List all files in a long listing (detailed) format
 
@@ -243,7 +243,7 @@
     tail -f file
 
 
->## Process Management
+## Process Management
 
 >### Display your currently running processes
 
@@ -290,7 +290,7 @@
     fg n
 
 
->## Linux File Permissions
+## Linux File Permissions
 
 
 ![File Permission](images/linux-perm.png)
@@ -317,7 +317,7 @@
 
 
 
->## Networking
+## Networking
 
 >### Display all network interfaces and ip address
 
@@ -367,7 +367,7 @@
 
     netstat -nutlp
 
->## Archives (TAR Files)
+## Archives (TAR Files)
 
 >### Create tar named archive.tar containing directory.
 
@@ -393,7 +393,7 @@
 
     tar xjf archive.tar.bz2
 
->## Installing Packages
+## Installing Packages
 
 >### Search for a package by keyword.
 
@@ -425,7 +425,7 @@
     make install
     ```
 
->## Search
+## Search
 
 >### Search for pattern in file
 
@@ -447,7 +447,7 @@
 
     find /home -size +100M
 
->## SSH Logins
+## SSH Logins
 
 >### Connect to host as your local username.
 
@@ -461,7 +461,7 @@
 
     ssh -p port user@host
 
->## File Transfer
+## File Transfer
 
 >### Secure copy file.txt to the /tmp folder on server
 
@@ -483,7 +483,7 @@
 
     rsync -avz /home server:/backups/
 
->## Disk Usage
+## Disk Usage
 
 >### Show free and used space on mounted filesystems
 
@@ -505,7 +505,7 @@
 
     du -sh
 
->## Directory Navigation
+## Directory Navigation
 
 >### To go up one level of the directory tree.  (Change into the parent directory.)
 
