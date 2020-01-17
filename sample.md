@@ -80,3 +80,19 @@ ___
 * [x] Task 1
 * [x] Task 2
 * [ ] Task 3
+
+<!- Color Text ->
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+```
+
+## <span style="color:#33B2FF">Another Color Tag</span>
+
+<span style="color:red">Red</span>
+
+<span style="color:green">Green</span>
+
+<span style="color:blue">Blue</span>

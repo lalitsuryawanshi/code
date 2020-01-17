@@ -1,6 +1,6 @@
 # Linux Commands
 
->## System Information
+>## <span style="color:#33B2FF">System Information</span>
 
 Display Linux system information
 
@@ -46,7 +46,7 @@ Who you are logged in as
 
 `whoami`
 
->## Hardware Information
+>## <span style="color:#33B2FF">Hardware Information</span>
 
 Display messages in kernel ring buffer
 
@@ -88,7 +88,7 @@ Test for unreadable blocks on disk sda
 
 `badblocks -s /dev/sda`
 
->## Performance Monitoring & Statistics
+>## <span style="color:#33B2FF">Performance Monitoring & Statistics</span>
 
 Display and manage the top processes
 
@@ -138,7 +138,7 @@ Execute "df -h", showing periodic updates
 
 `watch df -h`
 
->## User Information & Management
+>## <span style="color:#33B2FF">User Information & Management</span>
 
 Display the user and group ids of your current user.
 
@@ -172,7 +172,7 @@ Add the john account to the sales group
 
 `usermod -aG sales john`
 
->## File & Directory Commands
+>## <span style="color:#33B2FF">File & Directory Commands</span>
 
 List all files in a long listing (detailed) format
 
@@ -243,7 +243,7 @@ Display the last 10 lines of file and "follow" the file as it grows.
 `tail -f file`
 
 
->## Process Management
+>## <span style="color:#33B2FF">Process Management</span>
 
 Display your currently running processes
 
@@ -290,7 +290,7 @@ Brings job n to the foreground
 `fg n`
 
 
->## Linux File Permissions
+>## <span style="color:#33B2FF">Linux File Permissions</span>
 
 
 ![File Permission](images/linux-perm.png)
@@ -317,7 +317,7 @@ Brings job n to the foreground
 
 
 
->## Networking
+>## <span style="color:#33B2FF">Networking</span>
 
 Display all network interfaces and ip address
 
@@ -367,7 +367,7 @@ Display listening tcp and udp ports and corresponding programs
 
 `netstat -nutlp`
 
->## Archives (TAR Files)
+>## <span style="color:#33B2FF">Archives (TAR Files)</span>
 
 Create tar named archive.tar containing directory.
 
@@ -393,7 +393,7 @@ Extract a bzip2 compressed tar file.
 
 `tar xjf archive.tar.bz2`
 
->## Installing Packages
+>## <span style="color:#33B2FF">Installing Packages</span>
 
 Search for a package by keyword.
 
@@ -425,7 +425,7 @@ make
 make install
 ```
 
->## Search
+>## <span style="color:#33B2FF">Search</span>
 
 Search for pattern in file
 
@@ -447,7 +447,7 @@ Find files larger than 100MB in /home
 
 `find /home -size +100M`
 
->## SSH Logins
+>## <span style="color:#33B2FF">SSH Logins</span>
 
 Connect to host as your local username.
 
@@ -461,7 +461,7 @@ Connect to host using port
 
 `ssh -p port user@host`
 
->## File Transfer
+>## <span style="color:#33B2FF">File Transfer</span>
 
 Secure copy file.txt to the /tmp folder on server
 
@@ -483,7 +483,7 @@ Synchronize files/directories between the local and remote system with compressi
 
 `rsync -avz /home server:/backups/`
 
->## Disk Usage
+>## <span style="color:#33B2FF">Disk Usage</span>
 
 Show free and used space on mounted filesystems
 
@@ -505,7 +505,7 @@ Display total disk usage off the current directory
 
 `du -sh`
 
->## Directory Navigation
+>## <span style="color:#33B2FF">Directory Navigation</span>
 
 To go up one level of the directory tree.  (Change into the parent directory.)
 
@@ -518,3 +518,6 @@ Go to the $HOME directory
 Change to the /etc directory
 
 `cd /etc`
+
+
+
