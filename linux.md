@@ -417,13 +417,12 @@
 
 >### Install software from source code.
 
-    ```
     tar zxvf sourcecode.tar.gz
     cd sourcecode
     ./configure
     make
     make install
-    ```
+    
 
 ## Search
 
