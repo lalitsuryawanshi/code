@@ -517,7 +517,9 @@ Go to the $HOME directory
 
 Change to the /etc directory
 
-`cd /etc`
+```diff
++ cd /etc
+```
 
 
 
