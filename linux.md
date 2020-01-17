@@ -1,14 +1,14 @@
 # Linux Commands
 
->## <span style="color:#33B2FF">System Information</span>
+## System Information
 
-Display Linux system information
+>### Display Linux system information
 
-`uname -a`
+    uname -a
 
-Display kernel release information
+>### Display kernel release information
 
-`uname -r`
+    uname -r
 
 Show which version of redhat installed
 
