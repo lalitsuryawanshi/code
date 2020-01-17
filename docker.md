@@ -1,5 +1,21 @@
 # Docker
 
+List all local docker images
+
+`docker images`
+
+List running docker containers
+
+`docker ps`
+
+List all docker containers
+
+`docker ps -a`
+
+Run docker image with port forwarding
+
+`docker run -itd -P tomcat`
+
 ## Docker Machine
 
 Docker Machine will create a virtual machine where docker engine is running and ready to run docker images as required.
